@@ -8,6 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base:"/Santiago-Portfolio",
+  base:"/Santiago-Portfolio/",
 })
 
