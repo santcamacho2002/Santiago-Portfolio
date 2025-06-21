@@ -46,7 +46,7 @@ const ShowcaseSection = () => {
                     {/*LEFT*/}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/images/logoJaveLab.png" alt="Ryde" />
+                            <img src={`${import.meta.env.BASE_URL}images/logoJaveLab.png`} alt="Ryde" />
                         </div>
                         <div className="text-content">
                             <h2>
@@ -64,14 +64,14 @@ const ShowcaseSection = () => {
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
                             <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="/images/portafolioWeb.png" alt="Tool and User Management Platform" />
+                                <img src= {`${import.meta.env.BASE_URL}images/portafolioWeb.png`}  alt="Tool and User Management Platform" />
                             </div>
                             <h2>Web Developer Portfolio</h2>
                         </div>
 
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#ffe7eb]">
-                                <img src="/images/toolUser.png" alt="Tool and User Management Platform" />
+                                <img src= {`${import.meta.env.BASE_URL}images/toolUser.png`} alt="Tool and User Management Platform" />
                             </div>
                             <h2>Tool and User Management Platform</h2>
                         </div>

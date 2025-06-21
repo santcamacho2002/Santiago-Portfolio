@@ -17,29 +17,29 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "images/ideas.svg" },
+  { text: "Concepts", imgPath: "images/concepts.svg" },
+  { text: "Designs", imgPath: "images/designs.svg" },
+  { text: "Code", imgPath: "images/code.svg" },
+  { text: "Ideas", imgPath: "images/ideas.svg" },
+  { text: "Concepts", imgPath: "images/concepts.svg" },
+  { text: "Designs", imgPath: "images/designs.svg" },
+  { text: "Code", imgPath: "images/code.svg" },
 ];
 
 const abilities = [
   {
-    imgPath: "/images/solving.png",
+    imgPath: "images/solving.png",
     title: "Problem Solving",
     desc: "Identifying needs and designing efficient technological solutions through structured thinking.",
   },
   {
-    imgPath: "/images/teamwork.png",
+    imgPath: "images/teamwork.png",
     title: "Team Collaboration",
     desc: "Working effectively with students, teachers, and developers to achieve common goals.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "images/time.png",
     title: "Time Management",
     desc: "Planning and balancing academic projects, support sessions, and development tasks efficiently.",
   }
@@ -76,33 +76,9 @@ const expCards = [
 ];
 
 
-const socialImgs = [
-  {
-    name: "insta",
-    url: "https://www.instagram.com/",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    url: "https://www.facebook.com/",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
-  },
-  {
-    name: "linkedin",
-    url: "https://www.linkedin.com/",
-    imgPath: "/images/linkedin.png",
-  },
-];
-
 export {
   words,
   abilities,
   expCards,
-  socialImgs,
   navLinks,
 };
