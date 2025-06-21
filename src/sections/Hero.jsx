@@ -86,7 +86,7 @@ const Hero = () => {
                             <div className="flex items-center gap-2">
                                 <FaLinkedin className="text-blue-600" />
                                 <a
-                                    href="https://www.linkedin.com/in/santiago-camacho2002"
+                                    href="https://www.linkedin.com/in/santiago-camacho-villegas-a9a6a6349"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="hover:underline"
@@ -97,7 +97,7 @@ const Hero = () => {
                             <div className="flex items-center gap-2">
                                 <FaGithub />
                                 <a
-                                    href="https://github.com/SantCamacho"
+                                    href="https://github.com/santcamacho2002"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="hover:underline"
