@@ -52,7 +52,7 @@ const expCards = [
     responsibilities: [
       "Assisted the professor during lectures and academic activities.",
       "Prepared support classes on advanced topics such as pointers, memory management, and OOP.",
-      "Provided one-on-one support to students, answering questions and reviewing course material.",
+      "Provided one on one support to students, answering questions and reviewing course material.",
     ],
   },
   {

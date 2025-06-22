@@ -72,12 +72,12 @@ const Hero = () => {
                     <div className="bg-zinc-900/80 p-6 rounded-xl shadow-lg w-full max-w-xl mx-auto lg:mx-0">
                         <h1 className="text-2xl mt-4 font-semibold">Hi, I’m Santiago Camacho!</h1>
                         <p className="text-white-50 md:text-lg">
-                            Soon-to-graduate Systems Engineering student from Pontificia Universidad Javeriana,
-                            with hands-on experience in software development and a strong
+                            Soon to graduate Systems Engineering student from Pontificia Universidad Javeriana,
+                            with hands on experience in software development and a strong
                             foundation in building scalable, reliable, and efficient solutions.
                         </p>
                         <p className="text-white-50 md:text-lg mt-4">
-                            I’m passionate about continuous improvement, problem-solving, and collaborative work —
+                            I’m passionate about continuous improvement, problem solving, and collaborative work 
                             always eager to contribute and grow as a developer.
                         </p>
 
