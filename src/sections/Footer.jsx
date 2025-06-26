@@ -1,4 +1,4 @@
-import { socialImgs } from "../constants";
+
 
 const Footer = () => {
   return (

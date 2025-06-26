@@ -24,7 +24,7 @@ const NavBar = () => {
 
   return (
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
-      <div className="inner">
+      <div className="section-wrapper flex items-center justify-between">
         <a href="#hero" className="logo">
           Santiago Camacho
         </a>

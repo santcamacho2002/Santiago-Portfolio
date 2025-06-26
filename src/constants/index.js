@@ -75,10 +75,29 @@ const expCards = [
   },
 ];
 
+const projects = [
+  {
+    title: "JaveLab",
+    description: "JaveLab is a mobile application developed as a capstone project to address the high failure rates in key courses of the Systems Engineering program at Pontificia Universidad Javeriana. Built with Flutter, SpringBoot, Node.js, Microsoft Azure, and MongoDb.",
+    image: "images/logoJaveLab.png",
+  },
+  {
+    title: "Web Developer Portfolio",
+    description: "Personal portfolio showcasing my skills, projects and contact information. Built with React, Tailwind CSS, and GSAP for animations.",
+    image: "/scLogo.png",
+  },
+  {
+    title: "Tool and User Management Platform",
+    description: "Angular and Spring Boot platform that manage various tools and user accounts. The system has authentication and authorization mechanisms, ensuring that users only access endpoints aligned with their assigned permissions",
+    image: "images/toolUserLogo.png",
+  }
+];
+
 
 export {
   words,
   abilities,
   expCards,
   navLinks,
+  projects
 };

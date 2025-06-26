@@ -6,6 +6,7 @@ import {
   FaJava,
   FaDocker,
   FaGithub,
+  FaChartBar,
 } from "react-icons/fa";
 import {
   SiSpring,
@@ -16,6 +17,7 @@ import {
   SiPostgresql,
   SiAngular,
   SiFlutter,
+  SiCplusplus,
 } from "react-icons/si";
 
 import TitleHeader from "../components/TitleHeader";
@@ -33,14 +35,14 @@ const Skills = () => {
   const skillsWithIcons = {
     technologies: [
       { name: "Java", icon: <FaJava /> },
-      { name: "C++", icon: <span className="text-xl">🧮</span> },
+      { name: "C++", icon: <SiCplusplus/> },
       { name: "TypeScript", icon: <SiTypescript /> },
       { name: "Python", icon: <FaPython /> },
       { name: "SQL", icon: <SiPostgresql /> },
       { name: "MongoDB", icon: <SiMongodb /> },
       { name: "JavaScript", icon: <SiJavascript /> },
       { name: "Docker", icon: <FaDocker /> },
-      { name: "Power BI", icon: <span className="text-xl">📊</span> },
+      { name: "Power BI", icon: <FaChartBar/> },
       { name: "Angular", icon: <SiAngular /> },
       { name: "Spring Boot", icon: <SiSpring /> },
       { name: "React", icon: <SiReact /> },
@@ -66,9 +68,9 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex-center section-padding mt-16 scroll-mt-28 md:mt-40 xl:px-0"
+      className="section-wrapper py-20 scroll-mt-20"
     >
-      <div className="w-full h-full md:px-10 px-5">
+      <div >
         <TitleHeader title="Skills" sub="🛠️ What I Can Do" />
 
         {/* Tabs */}
@@ -102,7 +104,7 @@ const Skills = () => {
             {skillsWithIcons[activeTab].map((skill) => (
               <div
                 key={skill.name}
-                className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium shadow-sm transition-shadow bg-white dark:bg-zinc-800"
+                className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium shadow-sm transition-shadow bg-white dark:bg-[#161414]"
               >
                 <span className="text-xl">{skill.icon}</span>
                 <span>{skill.name}</span>
