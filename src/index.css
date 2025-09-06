@@ -88,9 +88,10 @@ section {
   }
 
   .hero-layout {
-  @apply relative z-10 flex flex-col lg:flex-row items-stretch justify-between 
+  @apply relative z-10 flex flex-col lg:flex-row items-center justify-center 
          w-full min-h-screen gap-10 lg:pt-0;
 }
+
 
 
 

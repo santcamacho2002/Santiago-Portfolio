@@ -22,7 +22,6 @@ const ShowcaseSection = () => {
     <section id="work" ref={sectionRef} className="section-wrapper py-20 scroll-mt-20">
       <TitleHeader
           title="Projects"
-          sub="💻 Showcase"
         />
 
       <div className="mt-12 grid md:grid-cols-3 gap-10 ">

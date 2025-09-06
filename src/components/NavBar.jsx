@@ -2,23 +2,25 @@ import { useState, useEffect } from "react";
 
 import { navLinks } from "../constants";
 
+import { Menu, X } from "lucide-react";
+
 const NavBar = () => {
-  // track if the user has scrolled down the page
+  
   const [scrolled, setScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    // create an event listener for when the user scrolls
+    
     const handleScroll = () => {
-      // check if the user has scrolled down at least 10px
-      // if so, set the state to true
+      
       const isScrolled = window.scrollY > 10;
       setScrolled(isScrolled);
     };
 
-    // add the event listener to the window
+   
     window.addEventListener("scroll", handleScroll);
 
-    // cleanup the event listener when the component is unmounted
+    
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -29,7 +31,16 @@ const NavBar = () => {
           Santiago Camacho
         </a>
 
-        <nav className="desktop flex justify-centerspace">
+        {/* Mobile Navigation */}
+        <button
+        onClick={() => setOpen(!open)}
+        className="md:hidden z-20"
+        >
+        {open ? <X size={28} /> : <Menu size={28} />}
+        </button>
+
+        {/* Desktop Navigation */}
+        <nav className="desktop flex justify-center space-x-4">
           <ul>
             {navLinks.map(({ link, name }) => (
               <li key={name} className="group">
@@ -40,13 +51,8 @@ const NavBar = () => {
               </li>
             ))}
           </ul>
-        </nav>
+        </nav>  
 
-        {/*<a href="#contact" className="contact-btn group">
-          <div className="inner">
-            <span>Contact me</span>
-          </div>
-        </a>*/}
       </div>
     </header>
   );

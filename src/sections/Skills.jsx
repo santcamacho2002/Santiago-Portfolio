@@ -71,7 +71,7 @@ const Skills = () => {
       className="section-wrapper py-20 scroll-mt-20"
     >
       <div >
-        <TitleHeader title="Skills" sub="🛠️ What I Can Do" />
+        <TitleHeader title="Skills"/>
 
         {/* Tabs */}
         <div className="flex justify-center items-center gap-4 mt-6 mb-10">
