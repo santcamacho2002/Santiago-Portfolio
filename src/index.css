@@ -47,11 +47,11 @@ section {
   }
 
   .section-wrapper {
-    @apply px-5 md:px-10 lg:px-20 max-w-screen-xl mx-auto w-full;
+    @apply px-10 md:px-10 lg:px-20 max-w-screen-xl mx-auto w-full;
   }
 
   .padding-x-lg {
-    @apply px-5 md:px-20;
+    @apply px-10 md:px-20;
   }
 
   .section-padding {
