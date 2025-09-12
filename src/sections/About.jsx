@@ -11,7 +11,7 @@ const About = () => {
             
             <div className="mt-12 grid md:grid-cols-2 gap-12 items-center">
                 {/* Texto */}
-                <div className="flex flex-col gap-6 md:text-left">
+                <div className="order-2 md:order-1 flex flex-col gap-6 md:text-left">
 
                     <p className="text-sm sm:text-base md:text-lg text-white-50 leading-relaxed max-w-xl mx-auto md:mx-0">
                         I’m a passionate and driven software developer
@@ -75,7 +75,7 @@ const About = () => {
                 </div>
 
                 {/* Imagen de perfil */}
-                <div className="grid place-items-center">
+                <div className="order-1 md:order-2 grid place-items-center">
 
 
                     <img
