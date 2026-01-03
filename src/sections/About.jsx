@@ -14,7 +14,7 @@ const About = () => {
                 <div className="order-2 md:order-1 flex flex-col gap-6 md:text-left">
 
                     <p className="text-sm sm:text-base md:text-lg text-white-50 leading-relaxed max-w-xl mx-auto md:mx-0">
-                        I’m a passionate and driven software developer
+                        I’m a passionate software developer
                         that truly enjoys turning ideas into real world solutions through clean, scalable code.
                     </p>
 
@@ -32,7 +32,6 @@ const About = () => {
                     <p className="text-sm sm:text-base md:text-lg text-white-50 leading-relaxed max-w-xl mx-auto md:mx-0">
                         I thrive in collaborative environments, adapt quickly, and bring a
                         problem solving mindset to every task.
-                        Whether I’m debugging a tricky backend issue or designing a responsive UI,
                     </p>
 
                     <p className="text-sm sm:text-base md:text-lg text-white-50 leading-relaxed max-w-xl mx-auto md:mx-0">
