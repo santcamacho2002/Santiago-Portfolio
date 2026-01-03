@@ -69,7 +69,7 @@ const About = () => {
                         </div>
                         <div className="flex items-center gap-2 dark:bg-[#161414] px-3 py-2 rounded-xl shadow">
                             <FaPhone />
-                            <span>+57 320 218 6515</span>
+                            <span>+593 97 958 6421</span>
                         </div>
                     </div>
                 </div>
