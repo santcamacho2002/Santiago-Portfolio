@@ -36,13 +36,10 @@ const Skills = () => {
     technologies: [
       { name: "Java", icon: <FaJava /> },
       { name: "C++", icon: <SiCplusplus/> },
-      { name: "TypeScript", icon: <SiTypescript /> },
       { name: "Python", icon: <FaPython /> },
       { name: "SQL", icon: <SiPostgresql /> },
       { name: "MongoDB", icon: <SiMongodb /> },
-      { name: "JavaScript", icon: <SiJavascript /> },
       { name: "Docker", icon: <FaDocker /> },
-      { name: "Power BI", icon: <FaChartBar/> },
       { name: "Angular", icon: <SiAngular /> },
       { name: "Spring Boot", icon: <SiSpring /> },
       { name: "React", icon: <SiReact /> },
