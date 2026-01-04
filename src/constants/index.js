@@ -1,4 +1,4 @@
-{/*  Constantes del proyecto, lugar donde modificar habilidades, fortalezas, etc */}
+{/*  Constantes del proyecto, lugar donde modificar habilidades, fortalezas, etc */ }
 
 
 const navLinks = [
@@ -66,6 +66,14 @@ const expCards = [
       "Assisted the professor during lectures and academic activities.",
       "Prepared support classes on advanced topics such as pointers, memory management, and OOP.",
       "Provided one on one support to students, answering questions and reviewing course material.",
+    ],
+  },
+  {
+    title: "Junior Developer Trainee — ZIMA",
+    date: "January 2024 – June 2024",
+    responsibilities: [
+      "Supported the migration of backend systems from a monolithic architecture to microservices using Spring Boot.",
+      "Collaborated with the development team to refactor existing services, enhancing scalability, maintainability, and deployment efficiency.",
     ],
   },
   {

@@ -6,12 +6,9 @@ import {
   FaJava,
   FaDocker,
   FaGithub,
-  FaChartBar,
 } from "react-icons/fa";
 import {
   SiSpring,
-  SiJavascript,
-  SiTypescript,
   SiReact,
   SiMongodb,
   SiPostgresql,
@@ -77,7 +74,7 @@ const Skills = () => {
               key={tab.key}
               className={`flex items-center gap-2 px-4 py-2 rounded-t-md font-medium border-b-2 transition-colors ${
                 activeTab === tab.key
-                  ? "border-white text-white"
+                  ? "border-white text-white-50"
                   : "border-transparent text-gray-400 hover:text-white"
               }`}
               onClick={() => handleTabChange(tab.key)}
@@ -101,7 +98,7 @@ const Skills = () => {
             {skillsWithIcons[activeTab].map((skill) => (
               <div
                 key={skill.name}
-                className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium shadow-sm transition-shadow bg-white dark:bg-[#161414]"
+                className="flex items-center gap-3 px-4 py-3 rounded-xl font-medium shadow-sm transition-shadow text-white-50 dark:bg-[#161414]"
               >
                 <span className="text-xl">{skill.icon}</span>
                 <span>{skill.name}</span>
