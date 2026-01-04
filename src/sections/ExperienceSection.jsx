@@ -1,6 +1,6 @@
 import { expCards } from "../constants";
 import TitleHeader from "../components/TitleHeader";
-import GlowCard from "../components/GlowCard";
+import GlowCard from "../components/ExperienceCard";
 
 const Experience = () => {
   return (

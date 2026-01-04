@@ -51,21 +51,21 @@ const abilities = [
 
 const expCards = [
   {
-    title: "Teaching Assistant — Advanced Programming",
-    date: "January 2023 – January 2024",
-    responsibilities: [
-      "Assisted the professor during lectures and academic activities.",
-      "Prepared support classes on advanced topics such as pointers, memory management, and OOP.",
-      "Provided one on one support to students, answering questions and reviewing course material.",
-    ],
-  },
-  {
     title: "Project Leader — Tech Education Program",
     date: "June 2023 – December 2023",
     responsibilities: [
       "Designed and led an educational initiative for high school students focused on programming and digital skills.",
       "Managed a team of instructors and coordinated the development of learning materials.",
       "Taught advanced topics like web development and programming logic to participating students.",
+    ],
+  },
+  {
+    title: "Teaching Assistant — Advanced Programming",
+    date: "January 2023 – January 2024",
+    responsibilities: [
+      "Assisted the professor during lectures and academic activities.",
+      "Prepared support classes on advanced topics such as pointers, memory management, and OOP.",
+      "Provided one on one support to students, answering questions and reviewing course material.",
     ],
   },
   {
